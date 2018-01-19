@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/1/6 12:53:25。
+     1>项目“H:\OpenGL\glfw-3.2.1\bulid\tests\glfwinfo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“glfwinfo.dir\Debug\glfwinfo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule H:/OpenGL/glfw-3.2.1/tests/CMakeLists.txt
+         CMake does not need to re-run because H:/OpenGL/glfw-3.2.1/bulid/tests/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         F:\visual studio2010\VC\bin\CL.exe /c /I"H:\OpenGL\glfw-3.2.1\deps" /I"H:\OpenGL\glfw-3.2.1\include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"glfwinfo.dir\Debug\\" /Fd"glfwinfo.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\tests\glfwinfo.c ..\..\deps\getopt.c ..\..\deps\glad.c
+         glfwinfo.c
+         getopt.c
+         glad.c
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"glfwinfo.dir\Debug\glfwinfo.exe.embed.manifest.res" glfwinfo.dir\Debug\glfwinfo_manifest.rc 
+       Link:
+         F:\visual studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\OpenGL\glfw-3.2.1\bulid\tests\Debug\glfwinfo.exe" /INCREMENTAL /NOLOGO ..\src\Debug\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"glfwinfo.dir\Debug\glfwinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/OpenGL/glfw-3.2.1/bulid/tests/Debug/glfwinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/OpenGL/glfw-3.2.1/bulid/tests/Debug/glfwinfo.lib" /MACHINE:X86 glfwinfo.dir\Debug\glfwinfo.exe.embed.manifest.res
+         glfwinfo.dir\Debug\glfwinfo.obj
+         glfwinfo.dir\Debug\getopt.obj
+         glfwinfo.dir\Debug\glad.obj  /machine:X86
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"glfwinfo.dir\Debug\glfwinfo.exe.embed.manifest" /manifest glfwinfo.dir\Debug\glfwinfo.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"glfwinfo.dir\Debug\glfwinfo.exe.embed.manifest.res" glfwinfo.dir\Debug\glfwinfo_manifest.rc 
+       LinkEmbedManifest:
+         F:\visual studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\OpenGL\glfw-3.2.1\bulid\tests\Debug\glfwinfo.exe" /INCREMENTAL /NOLOGO ..\src\Debug\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"glfwinfo.dir\Debug\glfwinfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/OpenGL/glfw-3.2.1/bulid/tests/Debug/glfwinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/OpenGL/glfw-3.2.1/bulid/tests/Debug/glfwinfo.lib" /MACHINE:X86 glfwinfo.dir\Debug\glfwinfo.exe.embed.manifest.res
+         glfwinfo.dir\Debug\glfwinfo.obj
+         glfwinfo.dir\Debug\getopt.obj
+         glfwinfo.dir\Debug\glad.obj  /machine:X86
+         glfwinfo.vcxproj -> H:\OpenGL\glfw-3.2.1\bulid\tests\Debug\glfwinfo.exe
+       FinalizeBuildStatus:
+         正在删除文件“glfwinfo.dir\Debug\glfwinfo.unsuccessfulbuild”。
+         正在对“glfwinfo.dir\Debug\glfwinfo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\OpenGL\glfw-3.2.1\bulid\tests\glfwinfo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.84

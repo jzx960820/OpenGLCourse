@@ -1,0 +1,40 @@
+﻿生成启动时间为 2018/1/6 12:53:16。
+     1>项目“H:\OpenGL\glfw-3.2.1\bulid\examples\wave.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\”。
+       InitializeBuildStatus:
+         正在创建“wave.dir\Debug\wave.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule H:/OpenGL/glfw-3.2.1/examples/CMakeLists.txt
+         CMake does not need to re-run because H:/OpenGL/glfw-3.2.1/bulid/examples/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         F:\visual studio2010\VC\bin\CL.exe /c /I"H:\OpenGL\glfw-3.2.1\deps" /I"H:\OpenGL\glfw-3.2.1\include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"wave.dir\Debug\\" /Fd"wave.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\examples\wave.c ..\..\deps\glad.c
+         wave.c
+         glad.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"H:\OpenGL\glfw-3.2.1\deps" /I"H:\OpenGL\glfw-3.2.1\include" /nologo /fo"wave.dir\Debug\glfw.res" ..\..\examples\glfw.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"wave.dir\Debug\wave.exe.embed.manifest.res" wave.dir\Debug\wave_manifest.rc 
+       Link:
+         F:\visual studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\wave.exe" /INCREMENTAL /NOLOGO ..\src\Debug\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"wave.dir\Debug\wave.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/wave.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/wave.lib" /MACHINE:X86 wave.dir\Debug\glfw.res
+         wave.dir\Debug\wave.exe.embed.manifest.res
+         wave.dir\Debug\wave.obj
+         wave.dir\Debug\glad.obj  /machine:X86
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"wave.dir\Debug\wave.exe.embed.manifest" /manifest wave.dir\Debug\wave.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"wave.dir\Debug\wave.exe.embed.manifest.res" wave.dir\Debug\wave_manifest.rc 
+       LinkEmbedManifest:
+         F:\visual studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\wave.exe" /INCREMENTAL /NOLOGO ..\src\Debug\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"wave.dir\Debug\wave.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/wave.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/wave.lib" /MACHINE:X86 wave.dir\Debug\glfw.res
+         wave.dir\Debug\wave.exe.embed.manifest.res
+         wave.dir\Debug\wave.obj
+         wave.dir\Debug\glad.obj  /machine:X86
+         wave.vcxproj -> H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\wave.exe
+       FinalizeBuildStatus:
+         正在删除文件“wave.dir\Debug\wave.unsuccessfulbuild”。
+         正在对“wave.dir\Debug\wave.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\OpenGL\glfw-3.2.1\bulid\examples\wave.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.21

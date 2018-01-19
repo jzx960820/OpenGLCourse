@@ -1,0 +1,38 @@
+﻿生成启动时间为 2018/1/6 12:53:24。
+     1>项目“H:\OpenGL\glfw-3.2.1\bulid\examples\heightmap.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“heightmap.dir\Debug\heightmap.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule H:/OpenGL/glfw-3.2.1/examples/CMakeLists.txt
+         CMake does not need to re-run because H:/OpenGL/glfw-3.2.1/bulid/examples/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         F:\visual studio2010\VC\bin\CL.exe /c /I"H:\OpenGL\glfw-3.2.1\deps" /I"H:\OpenGL\glfw-3.2.1\include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"heightmap.dir\Debug\\" /Fd"heightmap.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\examples\heightmap.c ..\..\deps\glad.c
+         heightmap.c
+         glad.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"H:\OpenGL\glfw-3.2.1\deps" /I"H:\OpenGL\glfw-3.2.1\include" /nologo /fo"heightmap.dir\Debug\glfw.res" ..\..\examples\glfw.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"heightmap.dir\Debug\heightmap.exe.embed.manifest.res" heightmap.dir\Debug\heightmap_manifest.rc 
+       Link:
+         F:\visual studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\heightmap.exe" /INCREMENTAL /NOLOGO ..\src\Debug\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"heightmap.dir\Debug\heightmap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/heightmap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/heightmap.lib" /MACHINE:X86 heightmap.dir\Debug\glfw.res
+         heightmap.dir\Debug\heightmap.exe.embed.manifest.res
+         heightmap.dir\Debug\heightmap.obj
+         heightmap.dir\Debug\glad.obj  /machine:X86
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"heightmap.dir\Debug\heightmap.exe.embed.manifest" /manifest heightmap.dir\Debug\heightmap.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"heightmap.dir\Debug\heightmap.exe.embed.manifest.res" heightmap.dir\Debug\heightmap_manifest.rc 
+       LinkEmbedManifest:
+         F:\visual studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\heightmap.exe" /INCREMENTAL /NOLOGO ..\src\Debug\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"heightmap.dir\Debug\heightmap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/heightmap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/OpenGL/glfw-3.2.1/bulid/examples/Debug/heightmap.lib" /MACHINE:X86 heightmap.dir\Debug\glfw.res
+         heightmap.dir\Debug\heightmap.exe.embed.manifest.res
+         heightmap.dir\Debug\heightmap.obj
+         heightmap.dir\Debug\glad.obj  /machine:X86
+         heightmap.vcxproj -> H:\OpenGL\glfw-3.2.1\bulid\examples\Debug\heightmap.exe
+       FinalizeBuildStatus:
+         正在删除文件“heightmap.dir\Debug\heightmap.unsuccessfulbuild”。
+         正在对“heightmap.dir\Debug\heightmap.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\OpenGL\glfw-3.2.1\bulid\examples\heightmap.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.98
